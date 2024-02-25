@@ -1,0 +1,70 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O"
+    },
+    "transactions": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "operations": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "payments": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/payments{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "offers": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/offers{?cursor,limit,order}",
+      "templated": true
+    },
+    "trades": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/trades{?cursor,limit,order}",
+      "templated": true
+    },
+    "data": {
+      "href": "https://api.testnet.minepi.com/accounts/GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O/data/{key}",
+      "templated": true
+    }
+  },
+  "id": "GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O",
+  "account_id": "GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O",
+  "sequence": "66201650942967808",
+  "subentry_count": 0,
+  "last_modified_ledger": 15413773,
+  "last_modified_time": "2024-02-25T04:28:26Z",
+  "thresholds": {
+    "low_threshold": 0,
+    "med_threshold": 0,
+    "high_threshold": 0
+  },
+  "flags": {
+    "auth_required": false,
+    "auth_revocable": false,
+    "auth_immutable": false
+  },
+  "balances": [
+    {
+      "balance": "100.0000000",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "asset_type": "native"
+    }
+  ],
+  "signers": [
+    {
+      "weight": 1,
+      "key": "GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O",
+      "type": "ed25519_public_key"
+    }
+  ],
+  "data": {},
+  "num_sponsoring": 0,
+  "num_sponsored": 0,
+  "paging_token": "GBLDMJVY5QVKIXWTJNUGX6JOAJ6UO4BQWLZNBTVBFVDKRHNZXACW224O"
+}
